@@ -4,7 +4,7 @@ from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 import uvicorn
 
-from rag import RAGPipeline
+from backend.rag import RAGPipeline
 
 app = FastAPI(title="PDF Chat API")
 
